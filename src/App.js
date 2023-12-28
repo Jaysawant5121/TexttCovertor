@@ -39,6 +39,7 @@ function App() {
         <Alert popalert={alert} />
         <Routes> 
         <Route path="/TextForm" element={<TextForm showAlert={showAlert} heading="Enter the text here " mode={mode} />}/>
+        <Route path="/" element={<TextForm showAlert={showAlert} heading="Enter the text here " mode={mode} />}/>
         <Route path="/about" element={<About about="It is TextUtils coverts the text" />}/>
 
         </Routes>
